@@ -35,7 +35,7 @@ async function createServer (id) {
 async function connect (id) {
   const { handle, acquired, sock } = await lockemSockem(id)
   if (!acquired) return net.connect({ path: sock })
-  await handle.close() // release
+  await handle.close()
   return null
 }
 

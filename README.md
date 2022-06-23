@@ -1,6 +1,6 @@
 # lock'em sock'em
 
-atomic tcp domain servers / sockets
+atomic, cross-platform tcp domain servers & sockets
 
 ## Install
 
